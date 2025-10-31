@@ -1,0 +1,11 @@
+p{
+    display: inline-block;
+    font-size: 200px;
+    color: aqua;
+}
+
+h1{
+    display: inline-block;
+    font-size: 200px;
+    color: red;    
+}

@@ -1,0 +1,26 @@
+.menu{
+    position: absolute;
+    background-color: darkmagenta;
+    color: white;
+    font-size: 200px;
+    top: -200px;
+    left: 500px;
+}
+.container{
+    background-color: grey;
+    font-size: 100px;
+    top: 100px;
+}
+.button{
+    position: relative;
+    background-color: blue;
+    color: white;
+    font-size: 100px;
+}
+
+.notification{
+    position: fixed;
+    color: black;
+    background-color: red;
+    font-size: 100px;
+}

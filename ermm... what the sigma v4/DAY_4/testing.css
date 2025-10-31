@@ -1,0 +1,12 @@
+.button {
+    position: fixed;
+    top: 1000px;
+    right: 100px;
+}
+.notification {
+    position: fixed;
+    top: 300px;
+    right: 200px;
+    background-color: red;
+    color: white;
+}

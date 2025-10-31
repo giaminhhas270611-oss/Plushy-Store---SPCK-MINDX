@@ -1,0 +1,52 @@
+/* Custom styles for Bootstrap cards */
+
+/* Apply a box-shadow and rounded corners to all cards */
+.card {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 1rem; /* Adjust this to match your preference */
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add a subtle scale effect on hover */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Style the card title */
+.card-title {
+    font-size: 1.5rem; /* 24px */
+    font-weight: 600; /* Semi-bold */
+    color: #1f2937; /* A dark gray color */
+}
+
+/* Style the card text */
+.card-text {
+    color: #4b5563; /* A slightly lighter gray color */
+}
+
+/* Customize the primary button */
+.btn-primary {
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Add a hover effect to the button */
+.btn-primary:hover {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+/* Additional styling for the body */
+body {
+    background-color: #f3f4f6; /* A very light gray background */
+    padding: 2rem;
+}
+
+/* General styles for the container and header */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}

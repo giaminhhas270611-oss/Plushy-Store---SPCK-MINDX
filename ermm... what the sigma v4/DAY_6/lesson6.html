@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale = 1.0">
+        <link href="DAY_6/lesson6.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <title>This is a title</title>
+    </head>
+    <body style="background-color: black;">
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown
+  </button>
+  <ul class="dropdown-menu">
+    <li><button class="dropdown-item" type="button">Action</button></li>
+    <li><button class="dropdown-item" type="button">Another action</button></li>
+    <li><button class="dropdown-item" type="button">Something else here</button></li>
+  </ul>
+</div>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" ></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://i.pinimg.com/736x/85/7c/1f/857c1fde6f8d74b68d008e3ccf4f3ccf.jpg" class="d-block.w-100" style="margin-left: 400px">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/736x/a7/42/aa/a742aaa20955e20539d4b41208e558c9.jpg" class="d-block.w-100" style="margin-left: 400px">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/736x/8a/d1/90/8ad190c369fa3fceb03fb2d8743ff9bb.jpg" class="d-block.w-100" style="margin-left: 400px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="false"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="container", style="display: inline-flex; padding-left: 350px">
+<div class="card" style="width: 18rem;">
+  <img src="https://i.pinimg.com/736x/a7/42/aa/a742aaa20955e20539d4b41208e558c9.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Blow me</p>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://i.pinimg.com/736x/61/b0/3b/61b03b38cf303e9e22a34819c82140a9.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">...</p>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://i.pinimg.com/736x/68/42/5a/68425ac7e7ce8e5a96d4faa2041e7f67.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Say drake...</p>
+  </div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    </body>
+    <footer>
+      <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">The artist</th>
+      <th scope="col">My favorite song in their album</th>
+      <th scope="col">Smash or pass</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Tyler the creator</td>
+      <td>earfquake</td>
+      <td>Smash</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Kendrick</td>
+      <td>MUSTARRRRRRRD</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Drake</td>
+      <td>A Minor</td>
+      <td>1 / 10 children</td>
+    </tr>
+  </tbody>
+</table>
+    </footer>
+</html>

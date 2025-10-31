@@ -1,0 +1,24 @@
+img{
+    width: 500px;
+    height: 500px;
+    margin-left: 3000px;
+}
+button{
+    color: black;
+    background-color: black;
+}
+.carousel-control-next-icon{
+    background-color: black;
+}
+.carousel-control-prev-icon{
+    border-color: black;
+}
+body{
+    background-color: black;
+}
+.card{
+    display: inline-block;
+}
+.container{
+    display: inline-block;
+}

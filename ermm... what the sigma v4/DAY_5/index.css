@@ -1,0 +1,42 @@
+title {
+    font-size: 300px;
+    color: black; 
+}
+
+p {
+    font-size: 150px;
+    color: black;
+}
+
+ul {
+    border: 50px;
+    border-color: grey;
+    border-style: double;
+    border-radius: 10px;
+    margin-left: 2500px;
+    display: inline-block;
+}
+
+li {
+    font-size: 100px;
+    color: black;
+}
+
+h1 {
+    font-size: 150px;
+    color: black;
+    margin-left: 2500px;
+}
+
+#button{
+    font-size: 100px;
+    color:black;
+    position: fixed;
+    background-color: red;
+    margin-bottom: 100px;
+    margin-left: 5000px;
+}
+
+#distraction{
+    margin-top: 100000px;
+}
