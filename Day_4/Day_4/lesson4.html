@@ -1,0 +1,68 @@
+1:A
+2:D
+3:C
+4:D
+5:B
+6:B
+7:A
+8:B
+9:B
+10:A
+
+
+
+<script>
+let numbers = [10, 20, 30, 40, 50];
+let sum = 0
+for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+}
+
+console.log("Sum:", sum);
+
+// Prime number check
+let n = Number(window.prompt("Enter a number to calculate if its a prime: "));
+let isPrime = true;
+if (n <= 1) {
+    isPrime = false;
+} else {
+    for (let i = 2; i < n; i++) {
+        if (n % i === 0) {
+            isPrime = false;
+            break;
+        }
+    }
+}
+if (isPrime) {
+    console.log(n + " is a prime number.");
+    document.write(n + " is a prime number.");
+} else {
+    console.log(n + " is not a prime number.");
+    document.write(n + " is not a prime number.");
+}
+
+// Find most frequent element in an array
+let rray = [1,1,1,1,2,2,3,3,3,3,3,3,4,4,4,4,4,4,5,5,4,4,3,3,3,3,3,4,4,4,4,4,1,1,1,1,1,2,2,2,1,1,1,1,2,2,3,2,1,2,3,4,5,5,5,3,3,4,4,5,5,5,5,5];
+let most_frequent = null;
+for (let i = 0; i < rray.length; i++) {
+    let count = 0;
+    for (let j = 0; j < rray.length; j++) {
+        if (rray[i] === rray[j]) {
+            count++;
+        }
+    }
+    if (most_frequent === null || count > most_frequent.count) {
+        most_frequent = {value: rray[i], count: count};
+    }
+}
+console.log(+ most_frequent.value + ", " + most_frequent.count);
+//Does 2 loops, one to do the other one again and again, the other to compare the values and see which is the most frequent
+
+// Remove duplicates and sort an array
+let rray2 = [1,2,1,2,3,4,3,5,3,4,6,4,5,5,5,6,7,8,7,6,5,4,3,2,1];
+let SortedA = Array.from(new Set(rray2));
+console.log(SortedA);
+document.write(SortedA);
+
+//Was made with help of AI but fixed and understood the material
+</script>
