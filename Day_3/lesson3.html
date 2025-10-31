@@ -1,0 +1,53 @@
+<p id="code1"> G</p>
+<p id="code2"> O</p>
+<p id="code3"> O</p>
+<p id="code4"> D</p>
+<p id="code5"> N</p>
+<p id="code6"> I</p>
+<p id="code7"> G</p>
+<p id="code8"> H</p>
+<p id="code9"> T</p>
+
+<script src="./lesson3.js"></script>
+
+<script>
+    let fruitbasket = {
+        brand: "Tropical Fruits",
+        size: 30,
+        price: 15.99,
+        isFresh: true,
+    }
+
+    delete fruitbasket.isFresh
+
+    for (let key in fruitbasket) {
+        console.log(fruitbasket[key])
+    }
+
+    let students = [
+        { name: "Alice", age: 20, class: "A" },
+        { name: "Bob", age: 22, class: "B" },
+        { name: "Charlie", age: 19, class: "C" },
+    ]
+
+    students.push({ name: "David", age: 21, class: "D" })
+    students[1].age = 17;
+    delete students[2]
+    console.log(students)
+
+    console.log(fruitbasket["brand"])
+    let fruit = ["apple", "banana", "orange", "grape", "mango"]
+    fruit.push("kiwi")
+    let x = fruit.indexOf("banana")
+    console.log(x)
+    let digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    let random =  [1, "hello", true, null, undefined, { name: "John" }, [1, 2, 3]]
+
+    for (let i = 0; i < fruit.length; i++) {
+        console.log(fruit[i]);
+    }
+
+    console.log(fruit)
+    console.log(digits)
+    console.log(random)
+</script>

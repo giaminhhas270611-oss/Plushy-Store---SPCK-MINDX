@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item1{
+    background-color: cornsilk;
+    border: solid 1px black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}

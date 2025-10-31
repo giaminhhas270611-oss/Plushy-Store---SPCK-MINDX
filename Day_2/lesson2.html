@@ -1,0 +1,45 @@
+<script>
+let ve1 = 10 > 5
+let ve2 = 5 < 2
+let result = ve1 || ve2
+console.log(result)
+
+if (result == true) {
+    console.log("True")
+} else {
+    console.log("False")
+}
+
+let light = "red"
+let startcar = false
+if (light == "green" || light == "yellow" == true) {
+    console.log("Car is started")
+    alert("Car is started")
+} else {
+    console.log("Car is not started")
+    alert("Car is not started")
+}
+
+let scoop = window.prompt("How many scoops? ")
+document.write("You ordered " + scoop + " scoops of ice cream.")
+
+if (scoop => 5) {
+    document.write("It will melt, eat quickly!")
+} else if (scoop == 3){
+    document.write("Nice!")
+} else if (scoop == 2) {
+    document.write("Good choice!")
+} else {
+    document.write("Enjoy your ice cream!")
+
+}
+
+for (let i = 1; i <= 100; i++)
+console.log(i)
+
+let sum = 0;
+while (sum < 100) {
+    sum += 10;
+    console.log(sum);
+}
+</script>
